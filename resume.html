@@ -1,0 +1,32 @@
+---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+layout: base
+---
+
+{% assign version = jekyll.version | split:'.' %}
+{% assign major = version[0] | plus:0 %}
+{% assign minor = version[1] | plus:0 %}
+{% assign patch = version[2] | plus:0 %}
+
+{% assign strings = site.data.strings %}
+{% assign colon = strings.colon | default:":" %}
+{% assign icons = strings.resume.icons %}
+{% assign from_to_format = strings.date_formats.resume | default:"%b %Y" %}
+
+{% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
+{% assign resume = page.resume | default:site.data.resume %}
+{% assign basics = resume.basics %}
+{% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
+
+<article
+  id="resume"
+  class="page {% unless nsd %}vcard h-card{% endunless %}"
+  role="article"
+  {% unless nsd %}vocab="http://schema.org/" typeof="Person" resource="#resume"{% endunless %}
+  >
+
+
+  
+    
+   <h1> Resume </h1>
+</article>

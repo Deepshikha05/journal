@@ -1,0 +1,63 @@
+---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+layout: base
+---
+
+{% assign version = jekyll.version | split:'.' %}
+{% assign major = version[0] | plus:0 %}
+{% assign minor = version[1] | plus:0 %}
+{% assign patch = version[2] | plus:0 %}
+
+{% assign strings = site.data.strings %}
+{% assign colon = strings.colon | default:":" %}
+{% assign icons = strings.resume.icons %}
+{% assign from_to_format = strings.date_formats.resume | default:"%b %Y" %}
+
+{% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
+{% assign resume = page.resume | default:site.data.resume %}
+{% assign basics = resume.basics %}
+{% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
+
+    
+<div class="container">
+  <h4> Hey, I'm Deepshikha Sethi.</h4>
+  <p> I am currently working with <strong>OLX Group</strong> as a <strong>Data Engineer</strong>.</p>
+
+  <h5>Responsibilities as a Data Engineer</h5>
+  <ul>
+    <li>
+      Developing and Maintaining Data Warehouse System using Amazon Redshift.
+    </li>
+    <li>
+      Creating and enhancing data solutions to enable seamless delivery of data and collecting, parsing, managing and analysing large sets of data.
+    </li>
+    <li>
+      Understand complex product requirements and translate them into automated solutions and building Self Service Tools.
+    </li>
+    <li>
+      Developing and Maintaining ETL Pipelines to enable data analytics and business intelligence.
+    </li>
+    <li>
+      Enabling Data Collection Pipelines by integrating with various internal and external tools and sources.
+    </li>
+  </ul>
+
+  <h5>Tools</h5>
+  <ul>
+    <li>
+      <strong>Databases </strong> - Redshift, MySQL, MongoDB, Dynamo DB
+    </li>
+    <li>
+      <strong>Languages </strong>- Python, SQL, Yaml
+    </li>
+    <li>
+      <strong>Job Scheduler </strong>- Jenkins, Airflow
+    </li>
+    <li>
+      <strong>IDE </strong>- PyCharm, Jupyter Lab, DBeaver, and VS Code
+    </li>
+    <li>
+      <strong>Productivity Tools </strong>- Notion
+    </li>
+  </ul>
+</div>
