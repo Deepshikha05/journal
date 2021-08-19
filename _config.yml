@@ -1,1 +1,13 @@
 theme: jekyll-theme-minimal
+
+menu:
+  - title:             Blog
+    url:               /blog
+  - title:             Data Engineering
+    url:               /data-engineering
+  - title:            Resume
+    url:               /resume
+  - title:            About
+    url:              /about
+  - title:            Support
+    url:              /url
