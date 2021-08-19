@@ -51,7 +51,7 @@ menu:
   - title:             Blog
     url:               /blog/
   - title:             Data Engineering
-    url:               /docs/
+    url:               /data-engg/
   - title:             About
     url:               /about/
 
