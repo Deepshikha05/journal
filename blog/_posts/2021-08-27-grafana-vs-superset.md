@@ -17,12 +17,12 @@ What is **Superset**? Data exploration and visualization platform, by Airbnb. Su
 
 Grafana can be classified as a tool in the "Monitoring Tools" category, while Superset is grouped under "Business Intelligence".
 
-#### Some of the features offered by Grafana are:
+#### Grafana Features:
 - Create, edit, save & search dashboards
 - Change column spans and row heights
 - Drag and drop panels to rearrange
 
-#### On the other hand, Superset provides the following key features:
+#### Apache Superset Features:
 - A rich set of visualizations to analyze your data, as well as a flexible way to extend the capabilities
 - An extensible, high granularity security model allowing intricate rules on who can access which features, and integration with major authentication providers (database, OpenID, LDAP, OAuth & REMOTE_USER through Flask AppBuiler)
 - A simple semantic layer, allowing to control how data sources are displayed in the UI, by defining which fields should show up in which dropdown and which aggregation and function (metrics) are made available to the user
