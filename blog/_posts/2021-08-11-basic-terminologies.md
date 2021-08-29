@@ -2,11 +2,6 @@
 layout: post
 title: Introduction to Data Warehouse
 image: /assets/img/blog/jj-ying.jpg
-accent_image: 
-  background: url('/assets/img/blog/jj-ying.jpg') center/cover
-  overlay: false
-accent_color: '#ccc'
-theme_color: '#ccc'
 description: >
   Introduction to Data Warehouse and basic terminologies
 ---
@@ -14,6 +9,11 @@ description: >
 # Basic Terminologies
 
 In this post, I will be covering about the basic terminologies that I have learned and make use of. 
+
+* toc
+{:toc}
+
+### Basic Terminologies
 
 1. **Data Warehouse**: Data Warehouse is a type of Data Management System that supports and enable Business Intelligence. Analytical processing within a DW is performed on data that has been readied for analysis, contextualized, and transformed with the purpose of generating analysis based insights. 
 - Can contain only Structured Data - data that is clean and easy to query.
