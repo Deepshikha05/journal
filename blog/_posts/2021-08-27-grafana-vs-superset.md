@@ -9,7 +9,7 @@ description: >
 ### Grafana vs Superset: What are the differences?
 
 * toc
-{:toc .large-only}
+{:toc}
 
 What is **Grafana**? Open source Graphite & InfluxDB Dashboard and Graph Editor. Grafana is a general purpose dashboard and graph composer. It's focused on providing rich ways to visualize time series metrics, mainly though graphs but supports other ways to visualize data through a pluggable panel architecture. It currently has rich support for for Graphite, InfluxDB and OpenTSDB. But supports other data sources via plugins.
 
