@@ -25,10 +25,10 @@ title:                 Deepshikha Sethi
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Personal Blog / Journal
+  Journal
 
 # A shorter description for the sidebar.
-tagline:               Personal Blog / Journal
+tagline:               Journal
 
 # A list of keywords for your blog
 keywords:              []
@@ -44,7 +44,7 @@ author:
   name:                Deepshikha Sethi
   email:               sethi.deepshikha45@gmail.com
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             SethiDeepshikha
 
 # Add links to the sidebar.
 menu:
@@ -360,11 +360,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name: Deepshikha Sethi
+  links:
+    - https://twitter.com/SethiDeepshikha
+    - https://github.com/Deepshikha05
 
 
 # Plugin Configs
