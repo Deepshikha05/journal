@@ -6,7 +6,7 @@ description: >
   Introduction to Kinesis
 ---
 
-# ETL vs ELT
+# Introduction to Kinesis
 
 In this post, we will understand what is Kinesis and when to use it.
 
