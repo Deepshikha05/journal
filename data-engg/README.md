@@ -5,7 +5,7 @@ description: >
   Data Engineering
 hide_description: true
 sitemap: false
-permalink: /data-engg/
+permalink: /data-engineering/
 ---
 
 Hey, You will be able to find informative Data Engineering blogs here.
