@@ -349,7 +349,7 @@ plugins:
 
 # Used for twitter cards
 # twitter:
-  username:            SethiDeepshikha
+#   username:            <username>
 
 # Used for facebook open graph
 # facebook:
@@ -363,7 +363,6 @@ social:
   links:
     - https://twitter.com/SethiDeepshikha
     - https://github.com/Deepshikha05
-    - https://www.linkedin.com/in/deepshikha-sethi-700822108/
 
 
 # Plugin Configs
